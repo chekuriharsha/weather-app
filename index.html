@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Harsha Chekuri">
+    <meta name="description" content="this is weather application">
+    <meta name="keywords" content="html css js javascript">
+    <meta name="robots" content="index follow">
+    <meta name="language" content="english">
+    <meta http-equiv="refresf" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="svg.xml" href="./template/icon.png">
+    <title>Weather Application</title>
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+</head>
+<body>
+    <div class="container">
+        <div class="container-box">
+            <div class="container-box-header">
+                <h1 id="heading">Weather Application</h1>
+            </div>
+            <div class="container-box-body">
+                <div class="container-box-left">
+                    <div class="search-box">
+                        <input class="input1" type="text" placeholder="Enter City name" title="city name">
+                        <button onclick="Checking()"><img class="search1" src="./template/search.png" alt="Search" title="search "></button>
+                    </div>
+                    <div class="country">
+                        <p id="time">Date & Time: yyyy-mm-dd hh:mm</p>
+                    </div>
+                </div>
+                <div class="container-box-right">
+                    <div class="right-top">
+                        <div class="box country">
+                            <img src="./template/country.png" alt="country" title="country">
+                            <h4 id="country">Country</h4>
+                        </div>
+                        <div class="box state">
+                            <img src="./template/state.png" alt="state" title="state">
+                            <h4 id="state">state</h4>
+                        </div>
+                        <div class="box condition">
+                            <img src="./template/condition.png" alt="condition" title="condition">
+                            <h4 id="cond">Condition</h4>
+                        </div>
+                    </div>
+                    <div class="right-bottom">
+                        <div class="box temperature">
+                            <img src="./template/temperature.png" alt="temperature" title="temperature">
+                            <h4 id="temp">Temperature</h4>
+                        </div>
+                        <div class="box humidity">
+                            <img src="./template/humidity.png" alt="humidity" title="humidity">
+                            <h4 id="humidity">Humidity</h4>
+                        </div>
+                        <div class="box wind">
+                            <img src="./template/wind.png" alt="wind" title="wind">
+                            <h4 id="wind">wind</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
